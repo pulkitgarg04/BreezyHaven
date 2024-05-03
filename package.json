@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cloudinary": "^2.2.0",
-    "jsonwebtoken": "^9.0.2"
-  }
-}
