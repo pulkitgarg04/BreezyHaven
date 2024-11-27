@@ -27,15 +27,16 @@ const userSchema = new Schema(
             trim: true
         },
         avatar: {
-            type: String,
-            required: true
-        },
-        coverImage: {
-            type: String,
+            type: String
         },
         password: {
             type: String,
             required: [true, "Password is required"]
+        },
+        role: {
+            type: String,
+            required: true,
+            enum: ["admin", "user", "manager"]
         },
         refreshToken: {
             type: String

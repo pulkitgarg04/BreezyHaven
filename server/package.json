@@ -3,5 +3,22 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.3.3"
-  }
+  },
+  "name": "breezyhaven",
+  "version": "1.0.0",
+  "description": "Book Hotels, Hostels, and much more",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulkitgarg04/BreezyHaven.git"
+  },
+  "author": "Pulkit Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pulkitgarg04/BreezyHaven/issues"
+  },
+  "homepage": "https://github.com/pulkitgarg04/BreezyHaven#readme"
 }
